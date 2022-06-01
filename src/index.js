@@ -6,8 +6,9 @@ import Mint from "./pages/Mint";
 import Map from "./pages/Map";
 import NoPage from "./pages/NoPage";
 import Layout  from "./Layout";
+import App  from "./App";
 
-export default function App() {
+export default function Aesys() {
   return (
     <BrowserRouter>
       <Routes>
@@ -25,4 +26,4 @@ export default function App() {
 }
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(<App />);
+root.render(<Aesys />);
