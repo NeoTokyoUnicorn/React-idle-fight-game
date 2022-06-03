@@ -12,13 +12,14 @@ const Map = () => {
     areas: Areas1,
   };
 
-  const LoadLevel = () => {
-    alert();
-  };
 
-      return (
-
-      <ImageMapper src={URL} map={MAP} onClick={LoadLevel}/>
+  return (
+      
+      <ImageMapper 
+        src={URL} 
+        map={MAP} 
+        onClick={area => this.clicked(area)}
+      />
 
   )
 }

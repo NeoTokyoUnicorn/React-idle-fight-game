@@ -13,9 +13,6 @@ const Layout = () => {
             <Link to="/Inventory">Inventory</Link>
           </li>
           <li>
-            <Link to="/Splash">Splash</Link>
-          </li>
-          <li>
             <Link to="/App">Play</Link>
           </li>
           <li>
