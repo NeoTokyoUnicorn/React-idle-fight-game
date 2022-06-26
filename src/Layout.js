@@ -21,6 +21,9 @@ const Layout = () => {
           <li>
             <Link to="/Map">Map</Link>
           </li>
+          <li>
+            <Link to="/Staking">Staking</Link>
+          </li>
         </ul>
       </nav>
 
